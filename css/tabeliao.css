@@ -664,11 +664,13 @@ footer .btn-primary:hover {
         margin-left: 0px;
     }
     .hero-spacer {
+        top: 0px;
         background-position: center bottom;
-        background-size: 100% auto;
+        background-size: contain;
+        background-image: url();
     }
     .jumbotron {
-        padding: 0px 15px;
+        padding: 0px 15px 20px 15px;
     }
     .jumbotron h1 {
         padding-top: 0px;
